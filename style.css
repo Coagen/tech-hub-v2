@@ -319,12 +319,12 @@ body {
 .cards:hover {
   transform: translateY(-10px);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
-  border: 2px solid #37b2d8;
+  border: 2px solid #07275c;
 }
 
 .cards i {
   font-size: 60px;
-  color: #2a84fa;
+  color: #07275c;
   margin-bottom: 15px;
   transition: transform 0.5s ease;
 }
