@@ -205,7 +205,7 @@ body {
 #hero {
   position: relative;
   height: 400px;
-  background-color: rgb(73, 161, 255);
+  background-color: #07275c;
   color: white;
   display: flex;
   justify-content: center;
