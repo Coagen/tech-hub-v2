@@ -383,7 +383,7 @@ body {
   justify-content: center;
   flex-direction: column;
   padding: 60px 20px;
-  background: rgb(73, 161, 255);
+  background-color: #07275c;
 }
 .heading {
   color: #fff;
@@ -458,7 +458,7 @@ body {
   justify-content: center;
 }
 .myIcon {
-  color: #ff0000;
+  color: #dc2626;
   background-color: #fff;
   border-radius: 50%;
   padding: 5px;
@@ -469,7 +469,7 @@ body {
   color: #fff;
 }
 .label {
-  color: #000;
+  color: #fff;
   font-size: 14px;
 
   opacity: 0.85;
