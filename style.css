@@ -7,8 +7,9 @@
 }
 
 /* Background Angled Shape (clean diagonal) */
+
 .angled-bg {
-  background: rgb(73, 161, 255); /* apna color */
+  background: #07275c; /* COLOR CHANGE NEW*/
   width: 100%;
   height: 100%;
   clip-path: none; /* sab lines straight */
@@ -39,6 +40,7 @@ body {
   font-size: 34px;
   margin-bottom: 20px;
   font-weight: bold;
+  color: #07275c; /* COLOR CHANGE NEW*/
 }
 
 .left p {
@@ -48,13 +50,13 @@ body {
 }
 
 .highlight {
-  color: rgb(73, 161, 255);
+  color: #07275c; /* COLOR CHANGE NEW*/
   font-weight: 600;
 }
 
 .btn {
   display: inline-block;
-  background-color: rgb(73, 161, 255);
+  background-color: #07275c; /* COLOR CHANGE NEW*/
   color: white;
   padding: 14px 28px;
   font-size: 16px;
@@ -104,13 +106,13 @@ body {
 }
 
 .card.orange {
-  background-color: rgb(73, 161, 255);
-  color: #333;
+  background-color: #07275c; /* COLOR CHANGE NEW*/
+  color: #fff;
   border-radius: 0px; /* 👈 Sharp corners here too */
 }
 
 .card.orange .title {
-  color: #333;
+  color: #fff;
 }
 
 /* Card Title */
@@ -121,7 +123,7 @@ body {
 }
 
 .card .title span {
-  color: rgb(73, 161, 255);
+  color: #e38d33;
 }
 
 /* Responsive (unchanged) */

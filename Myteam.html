@@ -167,6 +167,28 @@
         line-height: 1.6;
         font-size: 15px;
       }
+      html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+/* Fix nav menu overflow */
+#menu, .newa, .nav-container, .navbar-bottom, .navbar-middle {
+  max-width: 100% !important;
+  overflow-x: hidden;
+}
+
+/* Remove extra left margin on mobile */
+@media (max-width: 768px) {
+  .newa,
+  #menu {
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+  }
+}
+
 
       .footer-social a {
         color: #ccc;
@@ -247,6 +269,17 @@
           grid-template-columns: 1fr 1fr 1fr;
         }
       }
+@media(min-width: 768px){
+  .newa{
+    margin-top: 0.8%; 
+    margin-left: 0.5%;
+  }
+  #menu{
+    margin-top: 0.8%; 
+    margin-left: 0.5%;
+  }
+  
+}
 
       @media (max-width: 768px) {
         .footer-container {
@@ -296,10 +329,16 @@
           /></a>
         </div>
         <div class="textsu">
-          <h1 style="font-size: 32px; font-weight: bold; margin-top: 6%">
+          <h1
+            style="font-size: 32px; margin-top: 6%; font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif "
+          >
             TechHub Centralize Website
           </h1>
-          <p>IT Trainings & Services</p>
+          <p
+            style="font-size: 15.8px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
+          >
+            IT Trainings & Services
+          </p>
         </div>
       </div>
       <div class="mobileMenuDiv">
@@ -316,19 +355,9 @@
     <div class="menu-overlay" id="menuOverlay"></div>
 
     <!-- Bottom Navbar -->
-    <div class="navbar-bottom">
+    <div class="navbar-bottom" style="height: 85px;">
       <div class="nav-container">
-        <ul
-          style="
-            margin-top: 0.9%;
-            margin-left: 1.3%;
-            @media (max-width: 768px) {
-              margin-top: 0;
-              margin-left: 0;
-            }
-          "
-          id="menu"
-        >
+        <ul id="menu" class="newa">
           <li><a id="me" href="index.html"> Home</a></li>
           <li><a id="me" href="About.html">About Us</a></li>
           <li><a id="mean" href="ourcourses.html">Trainings </a></li>
