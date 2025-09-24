@@ -2,10 +2,10 @@
 .button {
   position: relative;
   transition: all 0.3s ease-in-out;
-  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0 15px rgba(239, 68, 68, 0.6);
   padding-block: 0.7rem;
   padding-inline: 1.25rem;
-  background-color: #07275c;
+  background-color: rgba(239, 68, 68);
   border-radius: 9999px;
   display: flex;
   align-items: center;
