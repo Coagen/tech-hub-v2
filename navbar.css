@@ -101,7 +101,7 @@ body {
 .mobileMenuDiv {
   display: flex;
   align-items: center;
-  /* justify-content: center; */
+  justify-content: center;
   gap: 20px;
 }
 .menu-toggle {
@@ -208,6 +208,9 @@ body {
 }
 
 @media (max-width: 768px) {
+  #menu li:last-child {
+    width: 100%;
+  }
   .navbar-top {
     display: none;
   }
