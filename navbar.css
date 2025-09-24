@@ -27,7 +27,6 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border: 2px solid red;
   padding: 5px 15px; /*CHANGE NEW*/
   background: white;
   height: 90px;
