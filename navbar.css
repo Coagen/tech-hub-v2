@@ -34,8 +34,7 @@ body {
 
 /* Bottom Navbar */
 .navbar-bottom {
-  height: 60px; /* Height Change CHANGE NEW*/
-  /* background-color: rgb(73, 161, 255); */
+  height: 60px !important; /* Height Change CHANGE NEW*/
   background-color: #07275c; /* COLOR CHANGE NEW*/
   position: sticky;
   z-index: 1000;
@@ -45,6 +44,7 @@ body {
 .navbar-bottom .nav-container {
   display: flex;
   align-items: center;
+  justify-content: space-around; /* NEW CHANGE*/
   height: 100%;
 }
 .navbar-bottom ul {
@@ -70,11 +70,10 @@ body {
 /* Support button */
 .support-btn {
   background: white;
-  /* color: #073a8a !important; */
   color: #07275c !important; /* COLOR CHANGE NEW*/
   font-weight: 700;
   font-size: 15px;
-  padding: 10px 25px;
+  padding: 5px 15px;
   border-radius: 8px;
   display: inline-flex;
   align-items: center;
@@ -155,7 +154,7 @@ body {
     color: #07275c !important; /* COLOR CHANGE NEW*/
     font-weight: 700;
     font-size: 15px;
-    padding: 10px 25px;
+    padding: 5px 15px;
     border-radius: 8px;
     display: inline-flex;
     align-items: center;
@@ -175,7 +174,7 @@ body {
     color: #07275c !important; /* COLOR CHANGE NEW*/
     font-weight: 500;
     font-size: 14px;
-    padding: 10px 10px;
+    padding: 5px 15px;
     border-radius: 8px;
     display: inline-flex;
     align-items: center;
@@ -231,7 +230,7 @@ body {
     margin-left: 0;
     width: 100%;
     justify-content: center;
-    padding: 14px 10px;
+    padding: 5px 15px;
   }
 
   .navbar-middle {
