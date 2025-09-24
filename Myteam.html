@@ -19,6 +19,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
     />
     <link rel="stylesheet" href="navbar.css" />
+    <link rel="stylesheet" href="campusbtn.css" />
     <style>
       * {
         margin: 0;
@@ -167,28 +168,32 @@
         line-height: 1.6;
         font-size: 15px;
       }
-      html, body {
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  overflow-x: hidden; /* Prevent horizontal scroll */
-}
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        overflow-x: hidden; /* Prevent horizontal scroll */
+      }
 
-/* Fix nav menu overflow */
-#menu, .newa, .nav-container, .navbar-bottom, .navbar-middle {
-  max-width: 100% !important;
-  overflow-x: hidden;
-}
+      /* Fix nav menu overflow */
+      #menu,
+      .newa,
+      .nav-container,
+      .navbar-bottom,
+      .navbar-middle {
+        max-width: 100% !important;
+        overflow-x: hidden;
+      }
 
-/* Remove extra left margin on mobile */
-@media (max-width: 768px) {
-  .newa,
-  #menu {
-    margin-left: 0 !important;
-    padding-left: 0 !important;
-  }
-}
-
+      /* Remove extra left margin on mobile */
+      @media (max-width: 768px) {
+        .newa,
+        #menu {
+          margin-left: 0 !important;
+          padding-left: 0 !important;
+        }
+      }
 
       .footer-social a {
         color: #ccc;
@@ -269,17 +274,16 @@
           grid-template-columns: 1fr 1fr 1fr;
         }
       }
-@media(min-width: 768px){
-  .newa{
-    margin-top: 0.8%; 
-    margin-left: 0.5%;
-  }
-  #menu{
-    margin-top: 0.8%; 
-    margin-left: 0.5%;
-  }
-  
-}
+      @media (min-width: 768px) {
+        .newa {
+          margin-top: 0.8%;
+          margin-left: 0.5%;
+        }
+        #menu {
+          margin-top: 0.8%;
+          margin-left: 0.5%;
+        }
+      }
 
       @media (max-width: 768px) {
         .footer-container {
@@ -329,23 +333,18 @@
           /></a>
         </div>
         <div class="textsu">
-          <h1
-            style="font-size: 32px; margin-top: 6%; font-weight: bold; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif "
-          >
-            TechHub Centralize Website
-          </h1>
-          <p
-            style="font-size: 15.8px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif"
-          >
-            IT Trainings & Services
-          </p>
+          <h1>TechHub Centralize Website</h1>
+          <p>IT Trainings & Services</p>
         </div>
       </div>
       <div class="mobileMenuDiv">
         <div>
-          <button class="btnsu">
+          <button class="button">
             <a href="Campuses.html">Our Campuses</a>
           </button>
+          <!-- <button class="btnsu">
+            <a href="Campuses.html">Our Campuses</a>
+          </button> -->
         </div>
         <div class="menu-toggle" id="menuToggle">☰</div>
       </div>
@@ -355,9 +354,9 @@
     <div class="menu-overlay" id="menuOverlay"></div>
 
     <!-- Bottom Navbar -->
-    <div class="navbar-bottom" style="height: 85px;">
+    <div class="navbar-bottom">
       <div class="nav-container">
-        <ul id="menu" class="newa">
+        <ul id="menu">
           <li><a id="me" href="index.html"> Home</a></li>
           <li><a id="me" href="About.html">About Us</a></li>
           <li><a id="mean" href="ourcourses.html">Trainings </a></li>
@@ -365,6 +364,7 @@
           <li><a id="mean" href="Campuses.html">Campuses</a></li>
           <li><a id="mean" href="Contact.html">Contact</a></li>
           <li><a id="mean" href="Myteam.html">Our Team</a></li>
+
           <li>
             <a href="Contact.html" class="support-btn"
               ><i class="fas fa-headset"></i> Support</a
