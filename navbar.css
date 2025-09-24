@@ -11,7 +11,7 @@ body {
 .navbar-top {
   background-color: #07275c; /* COLOR CHANGE NEW*/
   color: white;
-  padding: 5px 20px;
+  padding: 5px 15px; /* NEW CHANGE*/
   display: flex;
   align-items: center; /* CHANGE NEW*/
   justify-content: flex-end;
@@ -27,24 +27,24 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 10px; /*CHANGE NEW*/
+  padding: 5px 15px; /*CHANGE NEW*/
   background: white;
   height: 90px;
 }
 
 /* Bottom Navbar */
 .navbar-bottom {
-  height: 60px !important; /* Height Change CHANGE NEW*/
+  height: 60px !important;
   background-color: #07275c; /* COLOR CHANGE NEW*/
   position: sticky;
   z-index: 1000;
   position: sticky;
   top: 0;
+  /* padding: 0px 15px !important; */
 }
 .navbar-bottom .nav-container {
   display: flex;
   align-items: center;
-  justify-content: space-around; /* NEW CHANGE*/
   height: 100%;
 }
 .navbar-bottom ul {
@@ -73,7 +73,7 @@ body {
   color: #07275c !important; /* COLOR CHANGE NEW*/
   font-weight: 700;
   font-size: 15px;
-  padding: 5px 15px;
+  padding: 5px 15px; /* NEW CHANGE*/
   border-radius: 8px;
   display: inline-flex;
   align-items: center;
@@ -86,14 +86,29 @@ body {
   background: linear-gradient(90deg, #f0c330, #e38d33);
   transform: scale(1.05);
 }
+#menu {
+  padding: 5px 15px; /* NEW CHANGE*/
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
 
+#menu li:last-child {
+  margin-left: auto; /* pushes the last li to the far right */
+}
 /* Menu Toggle Button */
+/* Farhan Changes */
+.mobileMenuDiv {
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 20px;
+}
 .menu-toggle {
   display: none;
   font-size: 15px;
   cursor: pointer;
   padding: 5px 10px;
-  /* background: rgb(73, 161, 255); */
   background: #07275c; /* COLOR CHANGE NEW*/
   color: white;
   border-radius: 5px;
@@ -120,6 +135,8 @@ body {
 }
 .textsu h1 {
   color: #07275c; /* COLOR CHANGE NEW*/
+  font-size: 32px;
+  font-weight: bold;
 }
 .textsu p {
   color: grey;
@@ -147,19 +164,19 @@ body {
 @media (max-width: 1024px) {
   .navbar-bottom ul {
     gap: 1rem;
-    margin-left: 2%;
+    /* margin-left: 2%; */
   }
   .support-btn {
     background: white;
     color: #07275c !important; /* COLOR CHANGE NEW*/
     font-weight: 700;
     font-size: 15px;
-    padding: 5px 15px;
+    padding: 10px 25px;
     border-radius: 8px;
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    margin-left: 129%;
+    /* margin-left: 129%; */
     text-transform: uppercase;
     transition: all 0.3s ease;
   }
@@ -174,14 +191,19 @@ body {
     color: #07275c !important; /* COLOR CHANGE NEW*/
     font-weight: 500;
     font-size: 14px;
-    padding: 5px 15px;
+    padding: 10px 10px;
     border-radius: 8px;
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    margin-left: 19%;
+    /* margin-left: 19%; */
     text-transform: uppercase;
     transition: all 0.3s ease;
+  }
+}
+@media (max-width: 790px) {
+  .textsu h1 {
+    font-size: 28px;
   }
 }
 
@@ -227,10 +249,10 @@ body {
     width: 100%;
   }
   .support-btn {
-    margin-left: 0;
+    /* margin-left: 0; */
     width: 100%;
     justify-content: center;
-    padding: 5px 15px;
+    padding: 14px 10px;
   }
 
   .navbar-middle {
@@ -240,7 +262,7 @@ body {
     padding: 0;
     background: white;
   }
-  .btnsu {
+  /* .btnsu {
     background-color: #dc2626;
     color: white;
     padding: 10px 12px;
@@ -248,7 +270,7 @@ body {
     border-radius: 10px;
     font-size: 17px;
     font-weight: 600;
-  }
+  } */
   .imgsu img {
     height: 120px;
     width: 160px;
@@ -265,11 +287,7 @@ body {
     justify-content: flex-end; /* keeps hamburger on right */
   }
 }
-/* Farhan Changes */
-.mobileMenuDiv {
-  display: flex;
-  gap: 20px;
-}
+
 @media (max-width: 600px) {
   .imgsu img {
     height: 100px;
